@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM yii2-php:8.1-fpm
 
 RUN apt-get update
 RUN apt-get install -y curl git zip
